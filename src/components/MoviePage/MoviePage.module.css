@@ -1,0 +1,120 @@
+.page {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.inner {
+  display: flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.left,
+.right {
+  padding: 0 15px;
+}
+
+.img img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.img {
+  position: relative;
+  display: inline-block;
+}
+.img_info {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  background: rgba(48, 53, 57, 0.85);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.img_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.year {
+  font-weight: 200;
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+.genres {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.genre {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.genre_cicrle {
+  width: 13px;
+  height: 13px;
+  background-color: #606365;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: 0.4s ease;
+}
+.genre:hover .genre_cicrle {
+  background-color: var(--blue);
+}
+.genre:last-child {
+  margin-right: 0;
+  font-size: 20px;
+}
+.synopsis {
+  margin-bottom: 20px;
+}
+.synopsis_title {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.synopsis_description {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media (max-width: 900px) {
+  .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+  .synopsis_description {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.35;
+  }
+}

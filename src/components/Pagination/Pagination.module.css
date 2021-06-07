@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+  background: var(--bg-main);
+  border-radius: 50px;
+  padding: 5px 25px;
+  margin-right: 10px;
+  color: var(--blue);
+}
+.button.current {
+  color: #606365;
+}
+.button:last-child {
+  margin-right: 0;
+}

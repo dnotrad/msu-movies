@@ -1,0 +1,10 @@
+.movies {
+  color: #fff;
+}
+
+
+.inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12.5px;
+}
