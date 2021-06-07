@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/msu-movies/static/css/main.eabb8b6f.chunk.css",
+    "main.js": "/msu-movies/static/js/main.ebc30ab2.chunk.js",
+    "main.js.map": "/msu-movies/static/js/main.ebc30ab2.chunk.js.map",
+    "runtime-main.js": "/msu-movies/static/js/runtime-main.e61b91ea.js",
+    "runtime-main.js.map": "/msu-movies/static/js/runtime-main.e61b91ea.js.map",
+    "static/js/2.d4e1eb0a.chunk.js": "/msu-movies/static/js/2.d4e1eb0a.chunk.js",
+    "static/js/2.d4e1eb0a.chunk.js.map": "/msu-movies/static/js/2.d4e1eb0a.chunk.js.map",
+    "index.html": "/msu-movies/index.html",
+    "static/css/main.eabb8b6f.chunk.css.map": "/msu-movies/static/css/main.eabb8b6f.chunk.css.map",
+    "static/js/2.d4e1eb0a.chunk.js.LICENSE.txt": "/msu-movies/static/js/2.d4e1eb0a.chunk.js.LICENSE.txt",
+    "static/media/arrow.c17cc02a.svg": "/msu-movies/static/media/arrow.c17cc02a.svg",
+    "static/media/empty.817176e3.png": "/msu-movies/static/media/empty.817176e3.png",
+    "static/media/star.ed7b0440.svg": "/msu-movies/static/media/star.ed7b0440.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e61b91ea.js",
+    "static/js/2.d4e1eb0a.chunk.js",
+    "static/css/main.eabb8b6f.chunk.css",
+    "static/js/main.ebc30ab2.chunk.js"
+  ]
+}
